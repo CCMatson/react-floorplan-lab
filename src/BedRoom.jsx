@@ -2,7 +2,7 @@ const BedRoom = (props) => {
 
   return ( 
 <>
-<div>
+<div className="bedroom">
 {props.name} {props.bedNum}
 </div>
 </>

@@ -2,12 +2,45 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.floor-plan{
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 75%;;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.living-room{
+  background-color: lightblue;
+  padding: 50px;
+}
+
+.kitchen{
+  background-color: lightyellow;
+  padding: 50px;
+}
+
+.oven {
+  background-color: olive;
+}
+
+.sink {
+  background-color: orange;
+}
+
+.bedroom{
+  background-color: lightseagreen;
+  margin: 10px;
+}
+
+.bath{
+  background-color: lightpink;
+  margin: 40px;
+}
+
+
+@media (prefers-reduced-motion: no-pre7ference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
