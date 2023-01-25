@@ -8,7 +8,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 75%;;
+  width: 75%;
+  height: 700px;
 }
 
 .living-room{
@@ -19,11 +20,15 @@
 .kitchen{
   background-color: lightyellow;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .oven {
   background-color: olive;
 }
+
 
 .sink {
   background-color: orange;
@@ -32,6 +37,7 @@
 .bedroom{
   background-color: lightseagreen;
   margin: 10px;
+  padding: 2px;
 }
 
 .bath{
