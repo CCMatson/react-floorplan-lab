@@ -5,11 +5,11 @@
 .floor-plan{
   background-color: blanchedalmond;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 40%;
-  height: 700px;
+  height: 90vh;
+  width: 75vw;
 }
 
 .living-room{

@@ -1,7 +1,7 @@
 const Bath = (props) => {
   return (
     <>
-      <div className="bath">
+      <div className={props.size === "Half " ? "half" : "full" }>
       {props.size} {props.name} 
       </div>
     </>
