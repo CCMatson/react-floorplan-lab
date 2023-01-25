@@ -43,20 +43,30 @@
 #bed-1{
   width: 200px;
   background-color: palegreen;
+  height: 100px;
 }
 
 #bed-2{
   width: 200px;
   background-color: palevioletred;
+  height: 100px;
 }
 
 #bed-3{
   width: 400px;
+  height: 100px;
 }
 
-.bath{
+.half{
   background-color: lightpink;
   margin: 40px;
+  height: 50px;
+}
+
+.full{
+  background-color: lightpink;
+  margin: 40px;
+  height: 100px;
 }
 
 
