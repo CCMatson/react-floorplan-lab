@@ -12,10 +12,10 @@ const FloorPlan = (props) => {
       < Kitchen name="Kitchen" />
       < LivingRoom name="Living Room" />
       < BedRoom name="Bed Room" bedNum={bedNum[0]} />
-      < BedRoom name="Bed Room" bedNum={bedNum[2]} />
       < Bath name="Bath" size="Half " />
       < BedRoom name="Bed Room" bedNum={bedNum[1]} />
       < Bath name="Bath" size="Full " />
+      < BedRoom name="Bed Room" bedNum={bedNum[2]} />
 
     </>
   );
